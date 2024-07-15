@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[2638],{77766:e=>{e.exports=JSON.parse('{"tags":[{"label":"SmartLink","permalink":"/de/blog/tags/smartlink","description":"SmartLink ist unsere f\xfchrende SaaS-L\xf6sung, um Ihr Unternehmen zu sichern","count":8}]}')}}]);
