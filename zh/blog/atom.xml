@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.vaultys.com/zh/blog</id>
-    <title>SmartLink Doc Blog</title>
+    <title>Vaultys Doc Blog</title>
     <updated>2024-07-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.vaultys.com/zh/blog"/>
-    <subtitle>SmartLink Doc Blog</subtitle>
+    <subtitle>Vaultys Doc Blog</subtitle>
     <icon>https://docs.vaultys.com/zh/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[SmartLink 3.5]]></title>
