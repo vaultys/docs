@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[3803],{69969:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/en/vaultysid","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Historique des versions"}}')}}]);

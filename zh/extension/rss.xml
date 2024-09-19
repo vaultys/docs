@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Vaultys Doc Blog</title>
+        <link>https://docs.vaultys.com/zh/extension</link>
+        <description>Vaultys Doc Blog</description>
+        <lastBuildDate>Wed, 14 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh</language>
+        <item>
+            <title><![CDATA[Extension 1.0.8]]></title>
+            <link>https://docs.vaultys.com/zh/extension/extension/version/1.0.8</link>
+            <guid>https://docs.vaultys.com/zh/extension/extension/version/1.0.8</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Amélioration de l'auto remplissage]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_zUpk" id="amélioration-de-lauto-remplissage">Amélioration de l'auto remplissage<a href="https://docs.vaultys.com/zh/extension/extension/version/1.0.8#am%C3%A9lioration-de-lauto-remplissage" class="hash-link" aria-label="直接链接到Amélioration de l'auto remplissage" title="直接链接到Amélioration de l'auto remplissage">​</a></h2>
+<p>L'extension SmartLink permet de remplir automatiquement vos noms d'utilisateurs et mots de passe dans vos différentes applications web. Cette fonctionnalité a été entièrement revue et améliorée pour la version 1.0.8.</p>
+<h2 class="anchor anchorWithStickyNavbar_zUpk" id="nouveau-mode-de-connnexion">Nouveau mode de connnexion<a href="https://docs.vaultys.com/zh/extension/extension/version/1.0.8#nouveau-mode-de-connnexion" class="hash-link" aria-label="直接链接到Nouveau mode de connnexion" title="直接链接到Nouveau mode de connnexion">​</a></h2>
+<p>Le mode de connexion a été remplacé par un QR code que vous pouvez directement scanner avec votre application VaultysID. Plus besoin de passer par la version web de votre SmartLink pour accéder à votre extension !</p>
+<p><img decoding="async" loading="lazy" alt="Connexion" src="https://docs.vaultys.com/zh/assets/images/connect-694e983ac0e27afbdcf2c7f70c304232.png" width="382" height="598" class="img_geEu"></p>
+<h2 class="anchor anchorWithStickyNavbar_zUpk" id="menu">Menu<a href="https://docs.vaultys.com/zh/extension/extension/version/1.0.8#menu" class="hash-link" aria-label="直接链接到Menu" title="直接链接到Menu">​</a></h2>
+<p>Un nouveau menu fait son apparition. Vous pouvez y accéder depuis la barre qui se situe en haut de l'extension, en cliquant sur le nom de votre SmartLink en haut à droite.</p>
+<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/zh/assets/images/menu-29d3e36fb36e364196ed81d587df1a97.png" width="382" height="598" class="img_geEu"></p>
+<p>Depuis ce menu vous pouvez très facilement switcher entre vos SmartLink si vous en avez plusieurs. Vous également ouvrir votre SmartLink en version web, vous connecter à de nouveaux SmartLink, ou déconnecter votre extension.</p>
+<h2 class="anchor anchorWithStickyNavbar_zUpk" id="force-des-mots-de-passe">Force des mots de passe<a href="https://docs.vaultys.com/zh/extension/extension/version/1.0.8#force-des-mots-de-passe" class="hash-link" aria-label="直接链接到Force des mots de passe" title="直接链接到Force des mots de passe">​</a></h2>
+<p>Une indication sur la force des mots de passe que vous choisissez a été ajouté.</p>
+<p><img decoding="async" loading="lazy" alt="Entropy" src="https://docs.vaultys.com/zh/assets/images/entropy-4ffadd1c5bb971442a2b510ef437069d.png" width="382" height="598" class="img_geEu"></p>]]></content:encoded>
+            <category>extension</category>
+        </item>
+    </channel>
+</rss>
