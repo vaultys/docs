@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[265],{10022:e=>{e.exports=JSON.parse('{"tags":[{"label":"extension","permalink":"/de/extension/tags/extension","count":2}]}')}}]);
