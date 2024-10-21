@@ -14,21 +14,21 @@
             <guid>https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0</guid>
             <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Rappels pour effectuer des backups]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_kfG_" id="rappels-pour-effectuer-des-backups">Rappels pour effectuer des backups<a class="hash-link" aria-label="Direct link to Rappels pour effectuer des backups" title="Direct link to Rappels pour effectuer des backups" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#rappels-pour-effectuer-des-backups">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="Suggest backup" src="https://docs.vaultys.com/en/assets/images/suggest-backup-5942710b6ebc0165de3de4a349059b99.png" width="376" height="672" class="img_YRUH"></p>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="rappels-pour-effectuer-des-backups">Rappels pour effectuer des backups<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#rappels-pour-effectuer-des-backups" class="hash-link" aria-label="Direct link to Rappels pour effectuer des backups" title="Direct link to Rappels pour effectuer des backups">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Suggest backup" src="https://docs.vaultys.com/en/assets/images/suggest-backup-5942710b6ebc0165de3de4a349059b99.png" width="376" height="672" class="img_BH_O"></p>
 <p>Nous vous recommandons de régulièrement effectuer un backup de vos profils VaultysID.</p>
 <p>Vos backups vous permettent de restaurer vos identités sur un nouvel appareil en cas de perte, casse, ou vol.</p>
 <p>La version 2.0 de VaultysID intègre des rappels pour vous aider à effectuer vos backups régulièrement.</p>
 <p>Un rappel sera effectué chaque mois, sauf si vous cochez la case 'Ne plus me demander'.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="plus-de-paramètres">Plus de paramètres<a class="hash-link" aria-label="Direct link to Plus de paramètres" title="Direct link to Plus de paramètres" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#plus-de-param%C3%A8tres">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="plus-de-paramètres">Plus de paramètres<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#plus-de-param%C3%A8tres" class="hash-link" aria-label="Direct link to Plus de paramètres" title="Direct link to Plus de paramètres">​</a></h2>
 <img src="https://docs.vaultys.com/img/blog/2024-08-14-version-2.0/settings.png" alt="Paramètres" width="375px">
 <p>Dans les paramètres apparaît désormais une nouvelle langue représentée par un globe. VaultysID empêchera par défaut les traducteurs automatiques (ex google trad), en sélectionnant le globe vous autorisez votre traducteur à traduire l'application. Cela permet donc d'avoir une traduction approximative dans d'autres langues.</p>
 <p>Un nouveau menu "Aide" apparaît également. Cliquez dessus pour accéder à la page d'aide de VaultysID :</p>
 <img src="https://docs.vaultys.com/img/blog/2024-08-14-version-2.0/help.png" alt="Aide" width="375px">
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="simplification-de-lonboarding">Simplification de l'onboarding<a class="hash-link" aria-label="Direct link to Simplification de l'onboarding" title="Direct link to Simplification de l'onboarding" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#simplification-de-lonboarding">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="simplification-de-lonboarding">Simplification de l'onboarding<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#simplification-de-lonboarding" class="hash-link" aria-label="Direct link to Simplification de l'onboarding" title="Direct link to Simplification de l'onboarding">​</a></h2>
 <p>Au premier lancement de l'application, la procédure d'enrollement a été grandement simplifiée.</p>
 <div class="flex flex-row gap-4 flex-wrap"><img src="https://docs.vaultys.com/img/blog/2024-08-14-version-2.0/onboarding.step.1.png" alt="onboarding1" width="250px"><img src="https://docs.vaultys.com/img/blog/2024-08-14-version-2.0/onboarding.step.2.png" alt="onboarding2" width="250px"><img src="https://docs.vaultys.com/img/blog/2024-08-14-version-2.0/onboarding.step.3.png" alt="onboarding3" width="250px"></div>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="sécurité">Sécurité<a class="hash-link" aria-label="Direct link to Sécurité" title="Direct link to Sécurité" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#s%C3%A9curit%C3%A9">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="sécurité">Sécurité<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/2.0#s%C3%A9curit%C3%A9" class="hash-link" aria-label="Direct link to Sécurité" title="Direct link to Sécurité">​</a></h2>
 <p>Le procotole de Vaultys a été mis à jour dans le but d'améliorer toujours plus votre sécurité.</p>]]></content:encoded>
             <category>vaultysid</category>
         </item>
@@ -38,12 +38,12 @@
             <guid>https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.2</guid>
             <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Amélioration de l'interface graphique]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_kfG_" id="amélioration-de-linterface-graphique">Amélioration de l'interface graphique<a class="hash-link" aria-label="Direct link to Amélioration de l'interface graphique" title="Direct link to Amélioration de l'interface graphique" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.2#am%C3%A9lioration-de-linterface-graphique">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="amélioration-de-linterface-graphique">Amélioration de l'interface graphique<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.2#am%C3%A9lioration-de-linterface-graphique" class="hash-link" aria-label="Direct link to Amélioration de l'interface graphique" title="Direct link to Amélioration de l'interface graphique">​</a></h2>
 <p>L'interface graphique a été retravaillée pour être plus agréable, plus uniforme et plus animée !
 Nous avons notamment utilisé des composants standards basés sur une expérience aboutié de l'expérience utilisateur.
 Nous sommes certains que vous aprécierez !</p>
 <div class="flex flex-row gap-4"><img src="https://docs.vaultys.com/img/blog/2024-04-08-vaultysid-version-1.2/dashboard.png" alt="Light mode" width="375px"><img src="https://docs.vaultys.com/img/blog/2024-04-08-vaultysid-version-1.2/home.png" alt="Dark mode" width="375px"></div>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="code-pin">Code PIN<a class="hash-link" aria-label="Direct link to Code PIN" title="Direct link to Code PIN" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.2#code-pin">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="code-pin">Code PIN<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.2#code-pin" class="hash-link" aria-label="Direct link to Code PIN" title="Direct link to Code PIN">​</a></h2>
 <p>En code PIN est désormais obligatoire pour créer votre identité Vaultys lorsque vous séléctionnez le mode "logiciel" comme type de profil.</p>
 <img src="https://docs.vaultys.com/img/blog/2024-04-08-vaultysid-version-1.2/onboarding.step.9.png" alt="Dark mode" width="375px">]]></content:encoded>
             <category>vaultysid</category>
@@ -56,15 +56,15 @@ Nous sommes certains que vous aprécierez !</p>
             <description><![CDATA[Toute l'équipe de Vaultys est heureuse de vous présenter un nouvelle version de VaultysID, complètement réécrite pour intégrer notre nouvelle Charte Graphique.]]></description>
             <content:encoded><![CDATA[<p>Toute l'équipe de Vaultys est heureuse de vous présenter un nouvelle version de VaultysID, complètement réécrite pour intégrer notre nouvelle Charte Graphique.
 Nous avons intégré aussi la possibilité de personnaliser votre avatar et aussi ajouter la sauvegarde de votre compte.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="nouvelle-charte-graphique">Nouvelle charte graphique<a class="hash-link" aria-label="Direct link to Nouvelle charte graphique" title="Direct link to Nouvelle charte graphique" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#nouvelle-charte-graphique">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="nouvelle-charte-graphique">Nouvelle charte graphique<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#nouvelle-charte-graphique" class="hash-link" aria-label="Direct link to Nouvelle charte graphique" title="Direct link to Nouvelle charte graphique">​</a></h2>
 <p>Le charte graphique de Vaultys a été retravaillée. Couleur, sombre, clair. L'interface de VaultysID change pour respecter cette nouvelle charte !</p>
 <div class="flex flex-row gap-4"><img src="https://docs.vaultys.com/img/blog/2024-02-29-vaultysid-version-1.1/DashboardLight.png" alt="Light mode" width="375px"><img src="https://docs.vaultys.com/img/blog/2024-02-29-vaultysid-version-1.1/DashboardDark.png" alt="Dark mode" width="375px"></div>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="avatar">Avatar<a class="hash-link" aria-label="Direct link to Avatar" title="Direct link to Avatar" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#avatar">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="avatar">Avatar<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#avatar" class="hash-link" aria-label="Direct link to Avatar" title="Direct link to Avatar">​</a></h2>
 <p>Vous pouvez désormais utiliser un avatar et le personnaliser pour représenter vos identités Vaultys !
 Nous avons choisi quelques chose de simple pour vous représenter.
 Dans le futur nous allons itérer pour donner encore plus de possibilités.</p>
 <img src="https://docs.vaultys.com/img/blog/2024-02-29-vaultysid-version-1.1/Start.png" alt="avatar" width="375px">
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="importerexporter">Importer/Exporter<a class="hash-link" aria-label="Direct link to Importer/Exporter" title="Direct link to Importer/Exporter" href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#importerexporter">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="importerexporter">Importer/Exporter<a href="https://docs.vaultys.com/en/vaultysid/vaultysid/version/1.1#importerexporter" class="hash-link" aria-label="Direct link to Importer/Exporter" title="Direct link to Importer/Exporter">​</a></h2>
 <p>Il est désormais possible d'effectuer un backup de vos profils et de les réimporter.
 Très utile en cas de perte, vol ou casse de votre téléphone, nous recommandons de régulièrement sauvegarder un backup de vos identités Vaultys !</p>]]></content:encoded>
             <category>vaultysid</category>

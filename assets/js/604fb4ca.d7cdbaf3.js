@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[613],{22137:e=>{e.exports=JSON.parse('{"title":"Historique","items":[{"title":"Extension 1.2.0","permalink":"/extension/extension/version/1.2.0","unlisted":false},{"title":"Extension 1.0.8","permalink":"/extension/extension/version/1.0.8","unlisted":false}]}')}}]);
