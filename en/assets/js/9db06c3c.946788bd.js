@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[6065],{2492:s=>{s.exports=JSON.parse('{"blogBasePath":"/en/smartlink","blogTitle":"Historique des versions"}')}}]);

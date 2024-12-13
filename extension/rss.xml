@@ -19,21 +19,21 @@ Cette fonctionnalité permet de bloquer les formulaires de connexion des sites w
 Cela évite à l'utilisateur de se faire subtiliser ses identifiants par des sites de phishing.</p>
 <p>Les paramètres d'anti-phishing peuvent être définis depuis SmartLink.
 Il est possible de le désactiver complètement, de choisir une version aggressive et une version plus permissive, ou encore de blacklister complètement certains sites.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="anti-phishing">Anti Phishing<a class="hash-link" aria-label="Lien direct vers Anti Phishing" title="Lien direct vers Anti Phishing" href="https://docs.vaultys.com/extension/extension/version/1.2.0#anti-phishing">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="anti-phishing">Anti Phishing<a href="https://docs.vaultys.com/extension/extension/version/1.2.0#anti-phishing" class="hash-link" aria-label="Lien direct vers Anti Phishing" title="Lien direct vers Anti Phishing">​</a></h2>
 <p>Si l'anti-phishing est activé et configuré sur la version plus permissive, cette fenêtre s'affichera par-dessus les formulaires de connexion en provenance des sites qui ne sont pas enregistrés dans SmartLink :</p>
-<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/antiphishing-medium-fbd38ebc312147443ed55b675cce1da6.png" width="527" height="295" class="img_YRUH"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/antiphishing-medium-fbd38ebc312147443ed55b675cce1da6.png" width="527" height="295" class="img_BH_O"></p>
 <p>L'utilisateur peut cliquer sur le bouton "Fermer" pour ignorer l'avertissement et se connecter sur le site web en connaissance de cause.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="anti-phishing-aggressif">Anti Phishing aggressif<a class="hash-link" aria-label="Lien direct vers Anti Phishing aggressif" title="Lien direct vers Anti Phishing aggressif" href="https://docs.vaultys.com/extension/extension/version/1.2.0#anti-phishing-aggressif">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="anti-phishing-aggressif">Anti Phishing aggressif<a href="https://docs.vaultys.com/extension/extension/version/1.2.0#anti-phishing-aggressif" class="hash-link" aria-label="Lien direct vers Anti Phishing aggressif" title="Lien direct vers Anti Phishing aggressif">​</a></h2>
 <p>Dans sa version plus aggressif, l'anti phishing fera apparaître une fenêtre qui ne pourra pas être fermée. Il ne sera alors pas possible de se connecter sur des sites web inconnus :</p>
-<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/antiphishing-high-3861e72774b982a666fe329c50f8ee74.png" width="527" height="295" class="img_YRUH"></p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="blacklist">Blacklist<a class="hash-link" aria-label="Lien direct vers Blacklist" title="Lien direct vers Blacklist" href="https://docs.vaultys.com/extension/extension/version/1.2.0#blacklist">​</a></h2>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/antiphishing-high-3861e72774b982a666fe329c50f8ee74.png" width="527" height="295" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="blacklist">Blacklist<a href="https://docs.vaultys.com/extension/extension/version/1.2.0#blacklist" class="hash-link" aria-label="Lien direct vers Blacklist" title="Lien direct vers Blacklist">​</a></h2>
 <p>Les administrateurs de votre SmartLink peuvent également bloquer complètement l'accès à certains sites, cela bloquera entièrement le site, pas seulement les formulaires de connexion :</p>
-<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/blacklist-16e855463244c3323e0bf6f1ded1d9f7.png" width="1282" height="959" class="img_YRUH"></p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="connexion">Connexion<a class="hash-link" aria-label="Lien direct vers Connexion" title="Lien direct vers Connexion" href="https://docs.vaultys.com/extension/extension/version/1.2.0#connexion">​</a></h2>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/assets/images/blacklist-16e855463244c3323e0bf6f1ded1d9f7.png" width="1282" height="959" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="connexion">Connexion<a href="https://docs.vaultys.com/extension/extension/version/1.2.0#connexion" class="hash-link" aria-label="Lien direct vers Connexion" title="Lien direct vers Connexion">​</a></h2>
 <p>Il est maintenant possible de se connecter à l'extension directement depuis n'importe quelle page web !
 Désormais si lorsque vous vous rendez sur une page web sans avoir connecté votre extension, et que vous arrivez sur un formulaire de connexion, l'extension SmartLink affichera une fenêtre pour vous y connecter par dessus le formulaire de la page web.</p>
-<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/signin-b22275c0a8780e5550d0066fbf8eb72b.png" width="471" height="273" class="img_YRUH"></p>
-<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/connect-b6448f63b5d9df23c8c4901ff860336f.png" width="453" height="520" class="img_YRUH"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/signin-b22275c0a8780e5550d0066fbf8eb72b.png" width="471" height="273" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/connect-b6448f63b5d9df23c8c4901ff860336f.png" width="453" height="520" class="img_BH_O"></p>]]></content:encoded>
             <category>extension</category>
         </item>
         <item>
@@ -42,18 +42,18 @@ Désormais si lorsque vous vous rendez sur une page web sans avoir connecté vot
             <guid>https://docs.vaultys.com/extension/extension/version/1.0.8</guid>
             <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Amélioration de l'auto remplissage]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_kfG_" id="amélioration-de-lauto-remplissage">Amélioration de l'auto remplissage<a class="hash-link" aria-label="Lien direct vers Amélioration de l'auto remplissage" title="Lien direct vers Amélioration de l'auto remplissage" href="https://docs.vaultys.com/extension/extension/version/1.0.8#am%C3%A9lioration-de-lauto-remplissage">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="amélioration-de-lauto-remplissage">Amélioration de l'auto remplissage<a href="https://docs.vaultys.com/extension/extension/version/1.0.8#am%C3%A9lioration-de-lauto-remplissage" class="hash-link" aria-label="Lien direct vers Amélioration de l'auto remplissage" title="Lien direct vers Amélioration de l'auto remplissage">​</a></h2>
 <p>L'extension SmartLink permet de remplir automatiquement vos noms d'utilisateurs et mots de passe dans vos différentes applications web. Cette fonctionnalité a été entièrement revue et améliorée pour la version 1.0.8.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="nouveau-mode-de-connnexion">Nouveau mode de connnexion<a class="hash-link" aria-label="Lien direct vers Nouveau mode de connnexion" title="Lien direct vers Nouveau mode de connnexion" href="https://docs.vaultys.com/extension/extension/version/1.0.8#nouveau-mode-de-connnexion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="nouveau-mode-de-connnexion">Nouveau mode de connnexion<a href="https://docs.vaultys.com/extension/extension/version/1.0.8#nouveau-mode-de-connnexion" class="hash-link" aria-label="Lien direct vers Nouveau mode de connnexion" title="Lien direct vers Nouveau mode de connnexion">​</a></h2>
 <p>Le mode de connexion a été remplacé par un QR code que vous pouvez directement scanner avec votre application VaultysID. Plus besoin de passer par la version web de votre SmartLink pour accéder à votre extension !</p>
-<p><img decoding="async" loading="lazy" alt="Connexion" src="https://docs.vaultys.com/assets/images/connect-694e983ac0e27afbdcf2c7f70c304232.png" width="382" height="598" class="img_YRUH"></p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="menu">Menu<a class="hash-link" aria-label="Lien direct vers Menu" title="Lien direct vers Menu" href="https://docs.vaultys.com/extension/extension/version/1.0.8#menu">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Connexion" src="https://docs.vaultys.com/assets/images/connect-694e983ac0e27afbdcf2c7f70c304232.png" width="382" height="598" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="menu">Menu<a href="https://docs.vaultys.com/extension/extension/version/1.0.8#menu" class="hash-link" aria-label="Lien direct vers Menu" title="Lien direct vers Menu">​</a></h2>
 <p>Un nouveau menu fait son apparition. Vous pouvez y accéder depuis la barre qui se situe en haut de l'extension, en cliquant sur le nom de votre SmartLink en haut à droite.</p>
-<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/menu-29d3e36fb36e364196ed81d587df1a97.png" width="382" height="598" class="img_YRUH"></p>
+<p><img decoding="async" loading="lazy" alt="Menu" src="https://docs.vaultys.com/assets/images/menu-29d3e36fb36e364196ed81d587df1a97.png" width="382" height="598" class="img_BH_O"></p>
 <p>Depuis ce menu vous pouvez très facilement switcher entre vos SmartLink si vous en avez plusieurs. Vous également ouvrir votre SmartLink en version web, vous connecter à de nouveaux SmartLink, ou déconnecter votre extension.</p>
-<h2 class="anchor anchorWithStickyNavbar_kfG_" id="force-des-mots-de-passe">Force des mots de passe<a class="hash-link" aria-label="Lien direct vers Force des mots de passe" title="Lien direct vers Force des mots de passe" href="https://docs.vaultys.com/extension/extension/version/1.0.8#force-des-mots-de-passe">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="force-des-mots-de-passe">Force des mots de passe<a href="https://docs.vaultys.com/extension/extension/version/1.0.8#force-des-mots-de-passe" class="hash-link" aria-label="Lien direct vers Force des mots de passe" title="Lien direct vers Force des mots de passe">​</a></h2>
 <p>Une indication sur la force des mots de passe que vous choisissez a été ajouté.</p>
-<p><img decoding="async" loading="lazy" alt="Entropy" src="https://docs.vaultys.com/assets/images/entropy-4ffadd1c5bb971442a2b510ef437069d.png" width="382" height="598" class="img_YRUH"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="Entropy" src="https://docs.vaultys.com/assets/images/entropy-4ffadd1c5bb971442a2b510ef437069d.png" width="382" height="598" class="img_BH_O"></p>]]></content:encoded>
             <category>extension</category>
         </item>
     </channel>
