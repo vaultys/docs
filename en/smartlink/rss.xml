@@ -4,10 +4,41 @@
         <title>Vaultys Doc Blog</title>
         <link>https://docs.vaultys.com/en/smartlink</link>
         <description>Vaultys Doc Blog</description>
-        <lastBuildDate>Tue, 26 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SmartLink 3.8]]></title>
+            <link>https://docs.vaultys.com/en/smartlink/smartlink/version/3.8</link>
+            <guid>https://docs.vaultys.com/en/smartlink/smartlink/version/3.8</guid>
+            <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Passez à la vitesse supérieure avec notre API et nos webhooks ! Intégrez SmartLink directement avec vos outils d'entreprise.]]></description>
+            <content:encoded><![CDATA[<p><strong>Passez à la vitesse supérieure avec notre API et nos webhooks ! Intégrez SmartLink directement avec vos outils d'entreprise.</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="api">API<a href="https://docs.vaultys.com/en/smartlink/smartlink/version/3.8#api" class="hash-link" aria-label="Direct link to API" title="Direct link to API">​</a></h2>
+<blockquote>
+<p>License platinum uniquement</p>
+</blockquote>
+<p>Effectuez des requêtes depuis n'importe quel logiciel vers votre SmartLink.</p>
+<p>L'API permet notamment de gérer vos utilisateurs SmartLink, vos applications, vos dossiers...</p>
+<p><img decoding="async" loading="lazy" alt="API" src="https://docs.vaultys.com/en/assets/images/API-0d07e00a1f4556784082d97fbb22ccaf.png" width="1480" height="801" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="webhooks">Webhooks<a href="https://docs.vaultys.com/en/smartlink/smartlink/version/3.8#webhooks" class="hash-link" aria-label="Direct link to Webhooks" title="Direct link to Webhooks">​</a></h2>
+<blockquote>
+<p>License platinum uniquement</p>
+</blockquote>
+<p>Configurez des webhooks.
+Cela permet d'envoyer des informations où vous le souhaitez lors de nouveaux événements comme par exemple:</p>
+<ul>
+<li>La création, modification ou suppression d'utilisateurs</li>
+<li>La création, modification ou suprression d'applications</li>
+<li>La création, modification ou suppression de dossiers</li>
+<li>L'utilisation des applications</li>
+<li>Les connexions utilisateurs</li>
+<li>...</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="add endpoint" src="https://docs.vaultys.com/en/assets/images/add-webhook-548f9bc0cf0020e362e6befec459fedd.png" width="466" height="384" class="img_BH_O"></p>]]></content:encoded>
+            <category>smartlink</category>
+        </item>
         <item>
             <title><![CDATA[SmartLink 3.7]]></title>
             <link>https://docs.vaultys.com/en/smartlink/smartlink/version/3.7</link>

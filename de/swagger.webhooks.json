@@ -1,0 +1,843 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Webhooks Documentation",
+    "version": "1.0.0",
+    "description": "# Webhooks content\n\nThe webhook content includes the type of the webhook, a signature calculated from the API key, and data that depends on the type of webhook.\n\nExample:\n\n```json\n{\n  \"event\": \"membership.created\",\n  \"signature\": \"...\",\n  \"data\": {\n    id: 1,\n    \"firstName\": \"John\",\n    \"lastName\": \"Doe\",\n    \"email\": \"john.doe@example.com\"\n    ...\n  }\n}\n```\n\n## Signature Creation\n\nThe signature for the webhook is created using HMAC SHA-256.\nHere is an example to verify the signature with javascript:\n\n```js\nconst body = await request.json();\nconst date = body.date;\n\nif (new Date().getTime() - date <= 60 * 1 * 1000) {\n  console.log(\"Valid date\");\n\n  const keyBuffer = new TextEncoder().encode(apiKey);\n  const cryptoKey = await crypto.subtle.importKey(\"raw\", keyBuffer, { name: \"HMAC\", hash: { name: \"SHA-256\" } }, false, [\"verify\"]);\n  const { signature, ...data } = body;\n  const dataBuffer = new TextEncoder().encode(JSON.stringify(data));\n  const match = signature.match(/.{1,2}/g);\n  if (!match) return;\n  const signatureArray = new Uint8Array(match.map((byte: string) => parseInt(byte, 16)));\n  const valid = await crypto.subtle.verify(\"HMAC\", cryptoKey, signatureArray, dataBuffer);\n  if (valid) {\n    console.log(\"Valid signature\");\n    // handle webhook\n  } else {\n    console.log(\"Invalid signature\");\n  }\n} else {\n  console.log(\"Invalid date\");\n  // avoid replay attack\n}\n```\n\n## SmartLink SDK\n\nUse our [Javascript SDK](https://www.npmjs.com/package/@vaultys/smartlink-sdk) to verify your webhooks and use the SmartLink API.\n\n```bash\nnpm i @vaultys/smartlink-sdk\n```\n"
+  },
+  "components": {
+    "schemas": {
+      "App": {
+        "properties": {
+          "clientId": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "iconUrl": {
+            "type": "string"
+          },
+          "organizationId": {
+            "type": "number"
+          },
+          "ping": {
+            "type": "number"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "CUSTOM_SSO",
+              "OPENID",
+              "SAML",
+              "SMARTLINK"
+            ],
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "Folder": {
+        "properties": {
+          "forAllUsers": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "organizationId": {
+            "type": "number"
+          },
+          "parentId": {
+            "type": "number"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "LogEvent": {
+        "properties": {
+          "appClientId": {
+            "type": "string"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "deviceId": {
+            "type": "number"
+          },
+          "folderId": {
+            "type": "number"
+          },
+          "id": {
+            "type": "number"
+          },
+          "membershipId": {
+            "type": "number"
+          },
+          "message": {
+            "type": "string"
+          },
+          "organizationId": {
+            "type": "number"
+          },
+          "type": {
+            "type": "number"
+          },
+          "userId": {
+            "type": "number"
+          }
+        },
+        "type": "object"
+      },
+      "Membership": {
+        "properties": {
+          "createdAt": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "id": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "organizationId": {
+            "type": "number"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "ADMIN",
+              "OWNER",
+              "USER"
+            ],
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "ACTIVE",
+              "INACTIVE"
+            ],
+            "type": "string"
+          },
+          "updatedAt": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "userId": {
+            "type": "number"
+          }
+        },
+        "type": "object"
+      }
+    }
+  },
+  "webhooks": {
+    "membership.created": {
+      "post": {
+        "summary": "Membership Created",
+        "description": "This webhook is sent when a membership is created.",
+        "requestBody": {
+          "description": "Details of the created membership.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.deleted": {
+      "post": {
+        "summary": "Membership Deleted",
+        "description": "This webhook is sent when a membership is deleted.",
+        "requestBody": {
+          "description": "Details of the deleted membership.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.updated": {
+      "post": {
+        "summary": "Membership Updated",
+        "description": "This webhook is sent when a membership is updated.",
+        "requestBody": {
+          "description": "Details of the updated membership.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.connected": {
+      "post": {
+        "summary": "Membership Connection",
+        "description": "This webhook is sent when a membership connection is established.",
+        "requestBody": {
+          "description": "Details of the membership.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.connected.fail": {
+      "post": {
+        "summary": "Membership Connection Failed",
+        "description": "Details of the membership.",
+        "requestBody": {
+          "description": "Details of the failed membership connection.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.connected.denied": {
+      "post": {
+        "summary": "Membership Connection Denied",
+        "description": "Details of the membership.",
+        "requestBody": {
+          "description": "Details of the denied membership connection.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.extension.connected": {
+      "post": {
+        "summary": "Membership Extension Connected",
+        "description": "Details of the membership.",
+        "requestBody": {
+          "description": "Details of the connected membership extension.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.extension.connected.fail": {
+      "post": {
+        "summary": "Membership Extension Connection Failed",
+        "description": "Details of the membership.",
+        "requestBody": {
+          "description": "Details of the failed membership connection.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "membership.extension.connected.denied": {
+      "post": {
+        "summary": "Membership Extension Connection Denied",
+        "description": "Details of the membership.",
+        "requestBody": {
+          "description": "Details of the denied membership connection.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Membership"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "folder.created": {
+      "post": {
+        "summary": "Folder Created",
+        "description": "This webhook is sent when a folder is created.",
+        "requestBody": {
+          "description": "Details of the created folder.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Folder"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "folder.deleted": {
+      "post": {
+        "summary": "Folder Deleted",
+        "description": "This webhook is sent when a folder is deleted.",
+        "requestBody": {
+          "description": "Details of the deleted folder.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Folder"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "folder.updated": {
+      "post": {
+        "summary": "Folder Updated",
+        "description": "This webhook is sent when a folder is updated.",
+        "requestBody": {
+          "description": "Details of the updated folder.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/Folder"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "app.created": {
+      "post": {
+        "summary": "App Created",
+        "description": "This webhook is sent when an app is created.",
+        "requestBody": {
+          "description": "Details of the created app.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/App"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "app.deleted": {
+      "post": {
+        "summary": "App Deleted",
+        "description": "This webhook is sent when an app is deleted.",
+        "requestBody": {
+          "description": "Details of the deleted app.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/App"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "app.updated": {
+      "post": {
+        "summary": "App Updated",
+        "description": "This webhook is sent when an app is updated.",
+        "requestBody": {
+          "description": "Details of the updated app.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/App"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "app.opened": {
+      "post": {
+        "summary": "App Opened",
+        "description": "This webhook is sent when an app is opened.",
+        "requestBody": {
+          "description": "Details of the opened app.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/App"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    },
+    "event": {
+      "post": {
+        "summary": "Log Event",
+        "description": "This webhook is sent when a log event occurs.",
+        "requestBody": {
+          "description": "Details of the log event.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "event": {
+                    "type": "string",
+                    "description": "Type of webhook event."
+                  },
+                  "signature": {
+                    "type": "string",
+                    "description": "Signature of the webhook."
+                  },
+                  "data": {
+                    "$ref": "#/components/schemas/LogEvent"
+                  }
+                },
+                "required": [
+                  "event",
+                  "signature",
+                  "data"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Webhook received successfully."
+          }
+        }
+      }
+    }
+  }
+}

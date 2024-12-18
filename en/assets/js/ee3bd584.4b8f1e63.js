@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[6347],{19514:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/en/smartlink","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/en/smartlink/page/2","blogDescription":"Blog","blogTitle":"Version History"}}')}}]);

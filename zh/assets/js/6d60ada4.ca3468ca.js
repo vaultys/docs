@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartlink_doc=self.webpackChunksmartlink_doc||[]).push([[4323],{29144:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/zh/extension","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"\u535a\u5ba2","blogTitle":"\u7248\u672c\u5386\u53f2"}}')}}]);
