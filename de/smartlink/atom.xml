@@ -2,11 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.vaultys.com/de/smartlink</id>
     <title>Vaultys Doc Blog</title>
-    <updated>2024-12-18T00:00:00.000Z</updated>
+    <updated>2025-03-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.vaultys.com/de/smartlink"/>
     <subtitle>Vaultys Doc Blog</subtitle>
     <icon>https://docs.vaultys.com/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SmartLink 4.0]]></title>
+        <id>https://docs.vaultys.com/de/smartlink/smartlink/version/4.0</id>
+        <link href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0"/>
+        <updated>2025-03-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Une nouvelle ère s'ouvre pour votre SmartLink avec la Console IT !]]></summary>
+        <content type="html"><![CDATA[<p>Une nouvelle ère s'ouvre pour votre SmartLink avec la Console IT !</p>
+<p>Fini les pertes de temps inutiles lors des on-boarding et off-boarding, optimisez vos coûts de licences des apps, et surveillez chaque connexion en temps réel pour éviter toute faille de sécurité.</p>
+<p>Votre SmartLink évolue avec le lancement de la toute nouvelle Console IT. Cette mise à jour majeure introduit des fonctionnalités avancées en gestion du Shadow IT, provisioning automatisé, optimisation des coûts et un dashboard live enrichi, transformant radicalement votre manière de gérer votre environnement numérique.</p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="dashboard-live-enrichi">Dashboard Live enrichi<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#dashboard-live-enrichi" class="hash-link" aria-label="Direktlink zu Dashboard Live enrichi" title="Direktlink zu Dashboard Live enrichi">​</a></h2>
+<p>Nouvelle interface intuitive offrant une vision complète des applications, utilisateurs, dossiers et indicateurs de sécurité.</p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-19-41" src="https://docs.vaultys.com/de/assets/images/6f57220803de956ef933fba1e4ee6d97-8f23f10a5b6b798a015e439d73d3b6aa.png" width="1298" height="892" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="gestion-avancée-du-shadow-it">Gestion avancée du Shadow IT<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#gestion-avanc%C3%A9e-du-shadow-it" class="hash-link" aria-label="Direktlink zu Gestion avancée du Shadow IT" title="Direktlink zu Gestion avancée du Shadow IT">​</a></h2>
+<p>Identification claire des applications non autorisées.</p>
+<p>Gestion flexible : Ajoutez, blacklistez ou ignorez facilement les applications selon votre politique interne.</p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-21-31" src="https://docs.vaultys.com/de/assets/images/cbb3329ebc8695b25c4e953f77640b45-815a01bf69ffc70b96ac42df56c1e605.png" width="1676" height="890" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-21-39" src="https://docs.vaultys.com/de/assets/images/79b05b4e6f62770b8b47c8f264dfd8ae-398f7e89d24fab75305ad1ad64e42498.png" width="1676" height="889" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="gestion-optimisée-des-coûts">Gestion optimisée des coûts<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#gestion-optimis%C3%A9e-des-co%C3%BBts" class="hash-link" aria-label="Direktlink zu Gestion optimisée des coûts" title="Direktlink zu Gestion optimisée des coûts">​</a></h2>
+<p>Estimation facile du coût total selon les accès utilisateurs.</p>
+<p>Définition personnalisée du coût des licences par application.</p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-22-46" src="https://docs.vaultys.com/de/assets/images/d306a84b01611b16001db2e4f66f5873-ed7cc9bf4c3ce0303ee389031fb9e770.png" width="1676" height="889" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="provisioning-automatisé-grâce-à-scim">Provisioning automatisé grâce à SCIM<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#provisioning-automatis%C3%A9-gr%C3%A2ce-%C3%A0-scim" class="hash-link" aria-label="Direktlink zu Provisioning automatisé grâce à SCIM" title="Direktlink zu Provisioning automatisé grâce à SCIM">​</a></h2>
+<p>Gestion simplifiée des utilisateurs et des groupes avec automatisation complète du provisioning et déprovisioning.</p>
+<p>Mise à jour automatique des mots de passe pour renforcer la sécurité.</p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-23-33" src="https://docs.vaultys.com/de/assets/images/8893aca476101003000742e11b0c9718-79fb9aaf40d447d459df098d711699e0.png" width="1676" height="889" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="gestion-efficace-des-tickets">Gestion efficace des tickets<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#gestion-efficace-des-tickets" class="hash-link" aria-label="Direktlink zu Gestion efficace des tickets" title="Direktlink zu Gestion efficace des tickets">​</a></h2>
+<p>Vision simplifiée de tous vos tickets en cours : actions SCIM, suggestions d’applications, gestion du Shadow IT.</p>
+<p>Création facilitée des tickets directement depuis la Console.</p>
+<p><img decoding="async" loading="lazy" alt="Capture d’écran du 2025-03-14 08-24-25" src="https://docs.vaultys.com/de/assets/images/b26bba6d05931657734d0f7de30f41dd-dfb899ab5c8a5ffef7d19104510d0dc2.png" width="1676" height="889" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="quest-ce-que-cela-implique-pour-vous-">Qu'est-ce que cela implique pour vous ?<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.0#quest-ce-que-cela-implique-pour-vous-" class="hash-link" aria-label="Direktlink zu Qu'est-ce que cela implique pour vous ?" title="Direktlink zu Qu'est-ce que cela implique pour vous ?">​</a></h2>
+<ul>
+<li><strong>Formule FREE</strong> : Testez gratuitement pendant 15 jours avec toutes les fonctionnalités essentielles (jusqu'à 3 utilisateurs).</li>
+<li><strong>Formule CONSOLE</strong> : Pour 90€/mois, profitez de toutes les fonctionnalités avancées jusqu'à 5 utilisateurs actifs.</li>
+<li><strong>Formule PLATINUM</strong> : Accédez sans limite à toutes les fonctionnalités pour seulement 9€/utilisateur/mois.</li>
+</ul>]]></content>
+        <author>
+            <name>Jérôme Delaire</name>
+            <uri>https://github.com/JeromeDelaire</uri>
+        </author>
+        <author>
+            <name>Hugo Surply</name>
+            <uri>https://fr.linkedin.com/in/hugo-surply-b735a0230</uri>
+        </author>
+        <category label="smartlink" term="smartlink"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SmartLink 3.9]]></title>
+        <id>https://docs.vaultys.com/de/smartlink/smartlink/version/3.9</id>
+        <link href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9"/>
+        <updated>2025-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Onboarding amélioré]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="onboarding-amélioré">Onboarding amélioré<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#onboarding-am%C3%A9lior%C3%A9" class="hash-link" aria-label="Direktlink zu Onboarding amélioré" title="Direktlink zu Onboarding amélioré">​</a></h2>
+<p>L'onboarding a été grandement optimisé pour vous accompagner dans la configuration de votre SmartLink de manière fluide et intuitive.</p>
+<p><img decoding="async" loading="lazy" alt="Onboarding" src="https://docs.vaultys.com/de/assets/images/113c1227cf7a0d6a43432bb6eee12617-86f9ca9ec03146b3efd1946e590db1c0.png" width="1614" height="923" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="ajout-dapplications">Ajout d'applications<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#ajout-dapplications" class="hash-link" aria-label="Direktlink zu Ajout d'applications" title="Direktlink zu Ajout d'applications">​</a></h2>
+<p>L'ajout de nouvelles applications a été revu afin de vous offrir une expérience plus flexible et efficace. Choisissez la méthode qui correspond le mieux à vos besoins.</p>
+<p><img decoding="async" loading="lazy" alt="Ajout d&amp;#39;applications" src="https://docs.vaultys.com/de/assets/images/31b3813accb1d766596d4effed216f89-8b4d475505b17883d37dd8db99dc2398.png" width="1663" height="921" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="méthode-rapide">Méthode rapide<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#m%C3%A9thode-rapide" class="hash-link" aria-label="Direktlink zu Méthode rapide" title="Direktlink zu Méthode rapide">​</a></h3>
+<p>Ajoutez vos applications en un clic grâce à une URL ou un simple nom.</p>
+<p><img decoding="async" loading="lazy" alt="Ajout rapide" src="https://docs.vaultys.com/de/assets/images/eb55e3b68d3ff71945c336634e010daa-9bfdcf60a27e4ae86704632424c261b8.png" width="840" height="322" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="importation">Importation<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#importation" class="hash-link" aria-label="Direktlink zu Importation" title="Direktlink zu Importation">​</a></h3>
+<p>Importez vos applications directement depuis un fichier CSV pour un gain de temps maximal.</p>
+<p><img decoding="async" loading="lazy" alt="Importation d&amp;#39;applications" src="https://docs.vaultys.com/de/assets/images/35a0c7b19538823909ed8af45eeb7a23-3b2c2cadcb42d82f516e5045a8f53ca4.png" width="1651" height="909" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="ia-beta">IA (BETA)<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#ia-beta" class="hash-link" aria-label="Direktlink zu IA (BETA)" title="Direktlink zu IA (BETA)">​</a></h3>
+<p>Laissez-vous guider par l'intelligence artificielle pour obtenir des suggestions d'applications adaptées à vos besoins.</p>
+<p><img decoding="async" loading="lazy" alt="IA" src="https://docs.vaultys.com/de/assets/images/f94d58c6c91106019bec03163c0f6c0a-4ae1e7117533c11af71fb04d60903b40.png" width="1651" height="909" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="ajout-dutilisateurs">Ajout d'utilisateurs<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#ajout-dutilisateurs" class="hash-link" aria-label="Direktlink zu Ajout d'utilisateurs" title="Direktlink zu Ajout d'utilisateurs">​</a></h2>
+<p>L'ajout d'utilisateurs a également été amélioré. Vous pouvez désormais les importer directement depuis un fichier CSV ou les ajouter manuellement en quelques clics.</p>
+<p><img decoding="async" loading="lazy" alt="Add users" src="https://docs.vaultys.com/de/assets/images/11431d249bc330d93e9be2faa7d8dee2-0c4bc0b348e013e953bf180a3f94566f.png" width="820" height="659" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="audit">Audit<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/3.9#audit" class="hash-link" aria-label="Direktlink zu Audit" title="Direktlink zu Audit">​</a></h2>
+<p>Générez un rapport PDF conforme à l'annexe A9 de l'audit ISO 27001 pour une meilleure traçabilité et conformité !</p>
+<p><img decoding="async" loading="lazy" alt="Audit PDF" src="https://docs.vaultys.com/de/assets/images/a1c74ee4d3eb22742e7fb83c0d7a4469-a3341329af5cc93e97b2a4f16c347dcf.png" width="902" height="904" class="img_BH_O"></p>]]></content>
+        <author>
+            <name>Jérôme Delaire</name>
+            <uri>https://github.com/JeromeDelaire</uri>
+        </author>
+        <category label="smartlink" term="smartlink"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SmartLink 3.8]]></title>
         <id>https://docs.vaultys.com/de/smartlink/smartlink/version/3.8</id>
