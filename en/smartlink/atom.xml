@@ -41,7 +41,17 @@
 <li><strong>Formule FREE</strong> : Testez gratuitement pendant 15 jours avec toutes les fonctionnalités essentielles (jusqu'à 3 utilisateurs).</li>
 <li><strong>Formule CONSOLE</strong> : Pour 90€/mois, profitez de toutes les fonctionnalités avancées jusqu'à 5 utilisateurs actifs.</li>
 <li><strong>Formule PLATINUM</strong> : Accédez sans limite à toutes les fonctionnalités pour seulement 9€/utilisateur/mois.</li>
-</ul>]]></content>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="mise-à-jour-404">Mise à jour 4.0.4<a href="https://docs.vaultys.com/en/smartlink/smartlink/version/4.0#mise-%C3%A0-jour-404" class="hash-link" aria-label="Direct link to Mise à jour 4.0.4" title="Direct link to Mise à jour 4.0.4">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="openid-connect">OpenID Connect<a href="https://docs.vaultys.com/en/smartlink/smartlink/version/4.0#openid-connect" class="hash-link" aria-label="Direct link to OpenID Connect" title="Direct link to OpenID Connect">​</a></h3>
+<p>SmartLink est maintenant compatible avec OpenID Connect (OIDC) !</p>
+<p>Configurez vos applications de manière à pouvoir vous connectez via OIDC :</p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/en/assets/images/16cdc054338a0ba542a1071605faa410-038643831e1625d40d393520d262a97a.png" width="1088" height="563" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/en/assets/images/c6dccf7f3260a4478ede9a7fedfd2555-8997c9f045fdddf73cf630bbfb379efa.png" width="1280" height="662" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/en/assets/images/cff8e4308e73fa8be9b2e996d0c5d750-9a3b9e91526b04c0d03d3a5752f9d3b4.png" width="1036" height="536" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/en/assets/images/9fd9ce50c2ce5e025a4b6d5c6015bdd9-46fdae73ce94553ac5799e74b4a058bf.png" width="1292" height="668" class="img_BH_O"></p>
+<p>Et permettez à vos utilisateurs de se connecter à toutes vos applications compatibles OIDC en un click :</p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/en/assets/images/61d4c9e48d68db445558e034350dff88-26d2b3006c1fad3e83c039158e83c89f.png" width="1920" height="961" class="img_BH_O"></p>]]></content>
         <author>
             <name>Jérôme Delaire</name>
             <uri>https://github.com/JeromeDelaire</uri>
