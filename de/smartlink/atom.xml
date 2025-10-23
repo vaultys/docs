@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.vaultys.com/de/smartlink</id>
     <title>Vaultys Doc Blog</title>
-    <updated>2025-03-14T00:00:00.000Z</updated>
+    <updated>2025-10-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.vaultys.com/de/smartlink"/>
     <subtitle>Vaultys Doc Blog</subtitle>
     <icon>https://docs.vaultys.com/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SmartLink 4.1.1]]></title>
+        <id>https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1</id>
+        <link href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1"/>
+        <updated>2025-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nouveautés pour les utilisateurs]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="nouveautés-pour-les-utilisateurs">Nouveautés pour les utilisateurs<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#nouveaut%C3%A9s-pour-les-utilisateurs" class="hash-link" aria-label="Direktlink zu Nouveautés pour les utilisateurs" title="Direktlink zu Nouveautés pour les utilisateurs">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="onglet-paramètres">Onglet paramètres<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#onglet-param%C3%A8tres" class="hash-link" aria-label="Direktlink zu Onglet paramètres" title="Direktlink zu Onglet paramètres">​</a></h3>
+<p>Accédez à vos paramètres généraux, vos identités, installez l'extension SmartLink sur votre navigateur et plus, depuis le nouvel onglet "Paramètres" !</p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/de/assets/images/c12d9535943405f8e322ae3afdb3e566-bcd1a5835bea7411acb39790b0cae9cc.png" width="1605" height="877" class="img_BH_O"></p>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="nouveautés-pour-les-administrateurs">Nouveautés pour les administrateurs<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#nouveaut%C3%A9s-pour-les-administrateurs" class="hash-link" aria-label="Direktlink zu Nouveautés pour les administrateurs" title="Direktlink zu Nouveautés pour les administrateurs">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="gestion-des-utilisateurs">Gestion des utilisateurs<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#gestion-des-utilisateurs" class="hash-link" aria-label="Direktlink zu Gestion des utilisateurs" title="Direktlink zu Gestion des utilisateurs">​</a></h3>
+<p>La gestion des utilisateurs a été améliorée !
+Un nouveau bouton vous permet d'envoyer toutes vos invitations en un click !
+Deux nouvelles actions font leur apparition : "Créer un VaultysID temporaire" et "Remplacer VaultysID".</p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/de/assets/images/934f1931ece892fd614355421cc6b831-83ef075f4c4e2d9440cab21b91f20b8a.png" width="1170" height="868" class="img_BH_O"></p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="créer-un-vaultysid-temporaire">Créer un VaultysID temporaire<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#cr%C3%A9er-un-vaultysid-temporaire" class="hash-link" aria-label="Direktlink zu Créer un VaultysID temporaire" title="Direktlink zu Créer un VaultysID temporaire">​</a></h4>
+<p>Un collaborateur a oublié son téléphone ? Permettez lui de se connecter temporairement avec une nouvelle identité Vaultys.
+Un mail lui sera envoyé pour qu'il puisse se connecter avec un nouvel appareil !</p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="remplacement-du-vaultysid">Remplacement du VaultysID<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#remplacement-du-vaultysid" class="hash-link" aria-label="Direktlink zu Remplacement du VaultysID" title="Direktlink zu Remplacement du VaultysID">​</a></h4>
+<p>Un collaborateur a perdu ou cassé son téléphone ? Utiliser la fonction "Remplacer VaultysID" pour lui permettre de lier un nouvel appareil à son compte SmartLink !</p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="partage-des-applications">Partage des applications<a href="https://docs.vaultys.com/de/smartlink/smartlink/version/4.1.1#partage-des-applications" class="hash-link" aria-label="Direktlink zu Partage des applications" title="Direktlink zu Partage des applications">​</a></h3>
+<p>La page de configuration des applications a été amliorée.
+Vous y trouverez un onglet "Partager" (anciennement "Accès").
+Depuis cet onglet vous pourrrez facilement :</p>
+<ul>
+<li>Partager l'application avec des dossiers, des utilisateurs</li>
+<li>Définir les mots de passe communs à tout un dossier</li>
+<li>Copier ou déplacer un mot de passe commun vers un autre dossier</li>
+<li>Comprendre rapidemment quels utilisateurs auront accès à l'application et pourquoi</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/de/assets/images/c1485efa98d9b8f47e9a94ac9d5e123b-3aece69f6913233a7b69f69f2a938a85.png" width="1672" height="868" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.vaultys.com/de/assets/images/42a78efa9cf19a18cd1a4eba11c18a4d-ed044ed39c532ec89db3ea02b442305e.png" width="1672" height="868" class="img_BH_O"></p>]]></content>
+        <author>
+            <name>Jérôme Delaire</name>
+            <uri>https://github.com/JeromeDelaire</uri>
+        </author>
+        <category label="smartlink" term="smartlink"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SmartLink 4.0]]></title>
         <id>https://docs.vaultys.com/de/smartlink/smartlink/version/4.0</id>
