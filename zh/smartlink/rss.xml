@@ -4,10 +4,193 @@
         <title>Vaultys Doc Blog</title>
         <link>https://docs.vaultys.com/zh/smartlink</link>
         <description>Vaultys Doc Blog</description>
-        <lastBuildDate>Thu, 23 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[SmartLink 4.2.0]]></title>
+            <link>https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0</link>
+            <guid>https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0</guid>
+            <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Présentation Générale]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_SOLx" id="présentation-générale">Présentation Générale<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#pr%C3%A9sentation-g%C3%A9n%C3%A9rale" class="hash-link" aria-label="跳转至 Présentation Générale 的直达链接" title="跳转至 Présentation Générale 的直达链接">​</a></h2>
+<p>SmartLink 4.2.0 apporte des améliorations majeures en matière de sécurité, de contrôle d'accès granulaire et d'expérience utilisateur. Cette version renforce votre capacité à gérer les identités numériques, à réduire les risques de sécurité et à maintenir une traçabilité complète de tous les accès et activités au sein de votre écosystème applicatif.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="-expérience-utilisateur-entièrement-redessinée">🎯 <strong>Expérience Utilisateur Entièrement Redessinée</strong><a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#-exp%C3%A9rience-utilisateur-enti%C3%A8rement-redessin%C3%A9e" class="hash-link" aria-label="跳转至 -expérience-utilisateur-entièrement-redessinée 的直达链接" title="跳转至 -expérience-utilisateur-entièrement-redessinée 的直达链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="nouveau-système-de-connexion-avancé">Nouveau système de connexion avancé<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#nouveau-syst%C3%A8me-de-connexion-avanc%C3%A9" class="hash-link" aria-label="跳转至 Nouveau système de connexion avancé 的直达链接" title="跳转至 Nouveau système de connexion avancé 的直达链接">​</a></h3>
+<p>Une <strong>authentification plus sécurisée et flexible</strong> pour vos utilisateurs :</p>
+<ul>
+<li><strong>Authentification multi-facteur renforcée</strong> : Chaque navigateur s'authentifie via sa propre identité décentralisée</li>
+<li><strong>Niveaux de sécurité configurable</strong> : Les administrateurs peuvent imposer des méthodes d'authentification adaptées au contexte :<!-- -->
+<ul>
+<li><strong>Authentification logicielle</strong> : Vérification automatique de l'identité</li>
+<li><strong>Passkey/Biométrie</strong> : Validation biométrique ou par schéma PIN</li>
+<li><strong>Clé FIDO2</strong> : Authentification matérielle pour les environnements hautement sensibles</li>
+</ul>
+</li>
+<li><strong>Politiques d'accès granulaires</strong> : Blocage intelligent des accès suspects selon les navigateurs, systèmes d'exploitation, adresses IP et niveaux de sécurité</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture1" src="https://docs.vaultys.com/zh/assets/images/23dc441ad4a03fa1c98e53c6588631eb-2dad7e5dc58beba8a337197ff748acbf.png" width="1440" height="759" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="capture2" src="https://docs.vaultys.com/zh/assets/images/f4c26dc43712e1e879a186c6f305012f-1905d5ef155ca602d2d43280439bb19d.png" width="1440" height="759" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="capture3" src="https://docs.vaultys.com/zh/assets/images/a7a2144fa6707d18262846b7f9c7f777-1a909f5a9d98c8a9945cb0fe87f95f8b.png" width="1458" height="809" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="capture4" src="https://docs.vaultys.com/zh/assets/images/f0810abb73b66f0cf09093f2e4153425-6ad04f2a6ee30b10e8fe143f94ab1c0c.png" width="1458" height="809" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="interface-utilisateur-modernisée">Interface utilisateur modernisée<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#interface-utilisateur-modernis%C3%A9e" class="hash-link" aria-label="跳转至 Interface utilisateur modernisée 的直达链接" title="跳转至 Interface utilisateur modernisée 的直达链接">​</a></h3>
+<p>Un design <strong>cohérent, intuitif et professionnel</strong> qui se distingue de nos autres produits :</p>
+<ul>
+<li><strong>Nouvelle identité visuelle</strong> : Couleurs et logo repensés pour renforcer la reconnaissance de SmartLink</li>
+<li><strong>Navigation améliorée</strong> : Barre de sous-menus contextuels pour un accès plus fluide aux fonctionnalités</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture5" src="https://docs.vaultys.com/zh/assets/images/a6bcba0f4e3a5aa6029634977f9ed8f9-a8b74c2aaeeb96d70ef9eee94c5b088e.png" width="537" height="637" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="actions-rapides-et-widgets-de-productivité">Actions rapides et widgets de productivité<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#actions-rapides-et-widgets-de-productivit%C3%A9" class="hash-link" aria-label="跳转至 Actions rapides et widgets de productivité 的直达链接" title="跳转至 Actions rapides et widgets de productivité 的直达链接">​</a></h3>
+<p>Accès instantané aux fonctionnalités essentielles depuis n'importe où :</p>
+<ul>
+<li><strong>Sélecteur de langue</strong> : Changement instantané de la langue</li>
+<li><strong>Basculeur de thème</strong> : Passage clair/sombre en un clic</li>
+<li><strong>Générateur de mot de passe</strong> : Créez des mots de passe sécurisés directement depuis la toolbar</li>
+<li><strong>Bouton de documentation contextuelle</strong> : Lien d'aide dynamique qui bascule en fonction de la page consultée</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture6" src="https://docs.vaultys.com/zh/assets/images/9b05a52936c2d62bbc9bb8b41f2d8139-6a24b28a25ffe2eb3f2a4ea2e7c39804.png" width="618" height="371" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="barre-doutils-cohérente">Barre d'outils cohérente<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#barre-doutils-coh%C3%A9rente" class="hash-link" aria-label="跳转至 Barre d'outils cohérente 的直达链接" title="跳转至 Barre d'outils cohérente 的直达链接">​</a></h3>
+<p>Une <strong>toolbar</strong> qui apparaît au besoin, et qui regroupe tous les outils principaux (boutons d'action, barres de recherche, filtres) au même endroit pour une ergonomie optimale.</p>
+<p><img decoding="async" loading="lazy" alt="capture7" src="https://docs.vaultys.com/zh/assets/images/4853ea9663a5cf4768b3ec7d46e9f023-20f0b98f14cd618dc22e4808780402fe.png" width="1583" height="379" class="img_BH_O"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="-fonctionnalités-utilisateurs">👥 <strong>Fonctionnalités Utilisateurs</strong><a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#-fonctionnalit%C3%A9s-utilisateurs" class="hash-link" aria-label="跳转至 -fonctionnalités-utilisateurs 的直达链接" title="跳转至 -fonctionnalités-utilisateurs 的直达链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="gestionnaire-de-mots-de-passe-grandement-amélioré">Gestionnaire de mots de passe grandement amélioré<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#gestionnaire-de-mots-de-passe-grandement-am%C3%A9lior%C3%A9" class="hash-link" aria-label="跳转至 Gestionnaire de mots de passe grandement amélioré 的直达链接" title="跳转至 Gestionnaire de mots de passe grandement amélioré 的直达链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="import-depuis-toutes-les-sources">Import depuis toutes les sources<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#import-depuis-toutes-les-sources" class="hash-link" aria-label="跳转至 Import depuis toutes les sources 的直达链接" title="跳转至 Import depuis toutes les sources 的直达链接">​</a></h4>
+<p>Migrez facilement vos credentials existants vers SmartLink :</p>
+<ul>
+<li><strong>Navigateurs</strong> : Chrome, Brave, Edge, Vivaldi, Firefox, Safari</li>
+<li><strong>Gestionnaires de mots de passe</strong> : Bitwarden, Roboform, LastPass, Keeper, 1Password</li>
+<li><strong>Imports génériques</strong> : Fichiers CSV quelconques</li>
+</ul>
+<p><strong>Fonctionnalité unique – Coffre personnel</strong> : Les mots de passe pour les applications non enregistrées dans SmartLink sont stockés en sécurité dans un coffre personnel privé. Ces applications ne s'affichent que dans le coffre et ne bénéficient pas du remplissage automatique ni de la détection de l'extension de navigateur. Les paramètres anti-phishing continueront de bloquer les formulaires de ces applications (via l'extension SmartLink), car elle ne sont pas approuvées. Mais cela vous permet de stocker vos mots de passes, dans l'attente d'avoir accès à ces applications.</p>
+<p><img decoding="async" loading="lazy" alt="capture8" src="https://docs.vaultys.com/zh/assets/images/eab336feb4e3941557ca5ca363f72642-3121ae35587e723565136b84aadeb966.png" width="1579" height="920" class="img_BH_O"></p>
+<p><img decoding="async" loading="lazy" alt="capture9" src="https://docs.vaultys.com/zh/assets/images/d13da0bb2fb8caaf992da0c8eaef5136-b98be91a505b23a27b11297630f74ca5.png" width="1921" height="914" class="img_BH_O"></p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="partage-sécurisé-de-mots-de-passe">Partage sécurisé de mots de passe<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#partage-s%C3%A9curis%C3%A9-de-mots-de-passe" class="hash-link" aria-label="跳转至 Partage sécurisé de mots de passe 的直达链接" title="跳转至 Partage sécurisé de mots de passe 的直达链接">​</a></h4>
+<p>Collaborez simplement et en toute sécurité :</p>
+<ul>
+<li><strong>Partage avec les collègues</strong> : Partagez des credentials avec les autres utilisateurs de SmartLink</li>
+<li><strong>Durée de vie limitée</strong> : Les mots de passe partagés expirent automatiquement après 30 minutes</li>
+<li><strong>Onglet dédié</strong> : Consultez vos mots de passe partagés dans la section « Partages » du gestionnaire</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture10" src="https://docs.vaultys.com/zh/assets/images/72a7f6aadfdf8c39ca8522cc3ebfb0a4-ddefcce07827e3faa064cebede92a1b0.png" width="1922" height="916" class="img_BH_O"></p>
+<p><strong>Action rapide</strong> : Un bouton dédié permet de partager tout mot de passe en quelques clics.</p>
+<p><img decoding="async" loading="lazy" alt="capture11" src="data:image/png;base64,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" width="246" height="147" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="audit-dactivité-utilisateur-complet">Audit d'activité utilisateur complet<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#audit-dactivit%C3%A9-utilisateur-complet" class="hash-link" aria-label="跳转至 Audit d'activité utilisateur complet 的直达链接" title="跳转至 Audit d'activité utilisateur complet 的直达链接">​</a></h3>
+<p>Gagnez en <strong>visibilité</strong> sur vos propres comportements et accès :</p>
+<p>Consultez l'historique complet de vos activités, notamment :</p>
+<ul>
+<li>Connexions réussies et échouées (depuis SmartLink ou l'extension de navigateur)</li>
+<li>Création et modification de mots de passe</li>
+<li>Ouverture d'applications</li>
+<li>Formulaires de connexion bloqués par la protection anti-phishing</li>
+<li>Détection d'utilisation d'applications non autorisées (Shadow IT)</li>
+<li>Partages de mots de passe</li>
+<li>Et bien d'autres événements...</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture12" src="https://docs.vaultys.com/zh/assets/images/b869b28161145fb005f8e35225fad53e-552e37d74a84370861f4a01d0ead88e1.png" width="1916" height="924" class="img_BH_O"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="️-outils-administrateurs--sécurité-renforcée">⚙️ <strong>Outils Administrateurs – Sécurité Renforcée</strong><a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#%EF%B8%8F-outils-administrateurs--s%C3%A9curit%C3%A9-renforc%C3%A9e" class="hash-link" aria-label="跳转至 ️-outils-administrateurs--sécurité-renforcée 的直达链接" title="跳转至 ️-outils-administrateurs--sécurité-renforcée 的直达链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="politiques-daccès-granulaires">Politiques d'accès granulaires<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#politiques-dacc%C3%A8s-granulaires" class="hash-link" aria-label="跳转至 Politiques d'accès granulaires 的直达链接" title="跳转至 Politiques d'accès granulaires 的直达链接">​</a></h3>
+<p>Contrôlez précisément <strong>les règles d'accès à SmartLink</strong> via la section <strong>Accès → Politiques</strong> :</p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="critères-configurables">Critères configurables<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#crit%C3%A8res-configurables" class="hash-link" aria-label="跳转至 Critères configurables 的直达链接" title="跳转至 Critères configurables 的直达链接">​</a></h4>
+<ol>
+<li><strong>Navigateurs autorisés</strong> : Chrome, Firefox, Safari, Edge, Opera, Brave, Vivaldi ou autre</li>
+<li><strong>Systèmes d'exploitation</strong> : Windows, macOS, Linux, iOS, Android, Chrome OS ou autre</li>
+<li><strong>Niveau de sécurité du navigateur</strong> :<!-- -->
+<ul>
+<li>Authentification logicielle (automatique)</li>
+<li>Passkey/Biométrie (validation utilisateur)</li>
+<li>Clé de sécurité FIDO2 (matérielle)</li>
+</ul>
+</li>
+<li><strong>Niveau de sécurité de l'identité VaultysID</strong> : Logiciel, Passkey ou FIDO2</li>
+<li><strong>Restrictions IP</strong> : Définissez des adresses ou plages d'IP autorisées</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="capture13" src="https://docs.vaultys.com/zh/assets/images/6738685d50026769374b3e4446c1ff59-390641421cc40bc7f592430a1968f4b7.png" width="1916" height="924" class="img_BH_O"></p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="modes-dapplication-des-politiques">Modes d'application des politiques<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#modes-dapplication-des-politiques" class="hash-link" aria-label="跳转至 Modes d'application des politiques 的直达链接" title="跳转至 Modes d'application des politiques 的直达链接">​</a></h4>
+<p>Choisissez la comportement appliqué en cas de non-conformité :</p>
+<ul>
+<li><strong>Autoriser</strong> : Accepter la connexion sans condition</li>
+<li><strong>Avertir</strong> : Afficher une notification utilisateur, permettant de continuer si acceptée</li>
+<li><strong>Exiger l'approbation d'un administrateur</strong> : L'utilisateur doit une fois au moins être approuvé par un admin pour utiliser ce navigateur/appareil</li>
+<li><strong>Refuser</strong> : Bloquer l'accès immédiatement</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture14" src="https://docs.vaultys.com/zh/assets/images/73505e52ec444b01521b00ef87305f95-df7f9240a6b99c2e2a5151ad068dcf93.png" width="703" height="367" class="img_BH_O"></p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="politiques-personnalisées">Politiques personnalisées<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#politiques-personnalis%C3%A9es" class="hash-link" aria-label="跳转至 Politiques personnalisées 的直达链接" title="跳转至 Politiques personnalisées 的直达链接">​</a></h4>
+<p>Adaptez les règles de sécurité par profil :</p>
+<ul>
+<li>Conditions spécifiques pour les administrateurs</li>
+<li>Conditions adaptées à des utilisateurs spécifiques ou à des dossiers</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture15" src="https://docs.vaultys.com/zh/assets/images/78567b6bcc1bbc2dcd99500052527f4c-1c59fadfd3c0dcef0f3a8a1c02c0a3ea.png" width="441" height="359" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="bastion-et-management-agentic">Bastion et management agentic<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#bastion-et-management-agentic" class="hash-link" aria-label="跳转至 Bastion et management agentic 的直达链接" title="跳转至 Bastion et management agentic 的直达链接">​</a></h3>
+<p>Accédez à votre <strong>bastion de sécurité</strong> pour superviser :</p>
+<ul>
+<li><strong>Liste des appareils</strong> : Tous les dispositifs connectés à votre SmartLink</li>
+<li><strong>Demandes d'approbation</strong> : Validez les connexions qui nécessitent une autorisation manuelle</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture16" src="https://docs.vaultys.com/zh/assets/images/6acb24d5d6c7ed1a968fab6dd1b03f79-360474e8d7e2b24cb595599421f5c4c1.png" width="1909" height="926" class="img_BH_O"></p>
+<p><strong>Prochainement</strong> : Sécurisation renforcée pour les <strong>agents IA genriques</strong> (IDP pour IA agents)</p>
+<p><img decoding="async" loading="lazy" alt="capture17" src="https://docs.vaultys.com/zh/assets/images/d622c67d3fc92a267d7986ffd6457439-49aefb97c2a134746bf27b2a9c8bebd2.png" width="1909" height="926" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="rapports-de-conformité-et-audit">Rapports de conformité et audit<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#rapports-de-conformit%C3%A9-et-audit" class="hash-link" aria-label="跳转至 Rapports de conformité et audit 的直达链接" title="跳转至 Rapports de conformité et audit 的直达链接">​</a></h3>
+<p>Accédez à des <strong>rapports détaillé</strong> destinés aux profils spécialisés :</p>
+<ul>
+<li><strong>Responsables IT / CISO</strong> : Vue d'ensemble complète des accès et risques</li>
+<li><strong>Responsables ISO 27001</strong> : Reportings de conformité aux normes de sécurité</li>
+<li><strong>CTO / Architectes</strong> : Analyses techniques approfondies de l'infrastructure d'accès</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture18" src="https://docs.vaultys.com/zh/assets/images/b688a7005e6587805358e685b423ec0e-ef721795b9f1fc18d18b14a0b36b49c1.png" width="1909" height="926" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="traçabilité-administrative-complète">Traçabilité administrative complète<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#tra%C3%A7abilit%C3%A9-administrative-compl%C3%A8te" class="hash-link" aria-label="跳转至 Traçabilité administrative complète 的直达链接" title="跳转至 Traçabilité administrative complète 的直达链接">​</a></h3>
+<p>Consultez la <strong>piste d'audit (audit trail)</strong> de tous les événements survenus dans SmartLink :</p>
+<ul>
+<li>Connexions réussies, échouées et suspectes</li>
+<li>Créations et modifications de mots de passe (qui, quand, depuis où)</li>
+<li>Ouvertures d'applications</li>
+<li>Formulaires et tentatives bloquées (antiphishing)</li>
+<li>Détection de Shadow IT</li>
+<li>Partages de mots de passe</li>
+<li>Et bien plus à venir</li>
+</ul>
+<p>Cette traçabilité est <strong>essentiellement pour la conformité GDPR, NIS2 et ISO 27001</strong>.</p>
+<p><img decoding="async" loading="lazy" alt="capture19" src="https://docs.vaultys.com/zh/assets/images/4de65daef05ab8552ebdcd82e158607c-983af677f0e57bb4710879708dac9cfa.png" width="1909" height="926" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="gestion-simplifiée-des-utilisateurs-et-applications">Gestion simplifiée des utilisateurs et applications<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#gestion-simplifi%C3%A9e-des-utilisateurs-et-applications" class="hash-link" aria-label="跳转至 Gestion simplifiée des utilisateurs et applications 的直达链接" title="跳转至 Gestion simplifiée des utilisateurs et applications 的直达链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="import-des-utilisateurs">Import des utilisateurs<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#import-des-utilisateurs" class="hash-link" aria-label="跳转至 Import des utilisateurs 的直达链接" title="跳转至 Import des utilisateurs 的直达链接">​</a></h4>
+<p>Intégrez rapidement vos utilisateurs depuis :</p>
+<ul>
+<li><strong>Fichiers CSV</strong> : Format flexible et universel</li>
+<li><strong>Microsoft Entra ID (Azure AD)</strong> : Synchronisation directe avec votre répertoire cloud Microsoft</li>
+<li><strong>Google Workspace</strong> : Import depuis vos comptes Google d'entreprise</li>
+<li><strong>LDAP/Active Directory</strong> : Intégration avec votre annuaire d'entreprise existant</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture20" src="https://docs.vaultys.com/zh/assets/images/5bcf7cceba3b04b9e3a121352875a4e4-a2509d09a8044a1d2930f6095e5caaa1.png" width="1909" height="926" class="img_BH_O"></p>
+<h4 class="anchor anchorWithStickyNavbar_SOLx" id="import-et-création-dapplications">Import et création d'applications<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#import-et-cr%C3%A9ation-dapplications" class="hash-link" aria-label="跳转至 Import et création d'applications 的直达链接" title="跳转至 Import et création d'applications 的直达链接">​</a></h4>
+<p>Importez les applications utilisées par vos équipes :</p>
+<ul>
+<li><strong>Navigateurs web</strong> : Chrome, Brave, Edge, Vivaldi, Firefox, Safari</li>
+<li><strong>Gestionnaires de mots de passe</strong> : Bitwarden, Roboform, LastPass, Keeper, 1Password</li>
+<li><strong>Fichiers CSV</strong> : Toute source personnalisée</li>
+</ul>
+<p><strong>Différence clé par rapport aux utilisateurs</strong> : La création d'applications enregistre les apps dans SmartLink, mais <strong>ne leur assigne pas automatiquement d'accès</strong>. Vous devrez :</p>
+<ul>
+<li>Définir les droits d'accès pour chaque application par la suite, <strong>OU</strong></li>
+<li>Indiquer les dossiers d'affectation directement dans le fichier CSV d'import</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="capture21" src="https://docs.vaultys.com/zh/assets/images/9cb1a21b67efe09df6dba0206f03c99a-8d9252df6a85a48f6907701519f5dbc5.png" width="1909" height="926" class="img_BH_O"></p>
+<h3 class="anchor anchorWithStickyNavbar_SOLx" id="shadow-it--configuration-de-confidentialité">Shadow IT – Configuration de confidentialité<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#shadow-it--configuration-de-confidentialit%C3%A9" class="hash-link" aria-label="跳转至 Shadow IT – Configuration de confidentialité 的直达链接" title="跳转至 Shadow IT – Configuration de confidentialité 的直达链接">​</a></h3>
+<p><strong>Maîtrisez pleinement votre politique de Shadow IT</strong> :</p>
+<p>Vous avez désormais la possibilité de <strong>désactiver complètement la détection du Shadow IT</strong> si vous souhaitez préserver la vie privée de vos utilisateurs et éviter de tracker leurs applications personnelles.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="-résumé-des-bénéfices">🔐 <strong>Résumé des Bénéfices</strong><a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/4.2.0#-r%C3%A9sum%C3%A9-des-b%C3%A9n%C3%A9fices" class="hash-link" aria-label="跳转至 -résumé-des-bénéfices 的直达链接" title="跳转至 -résumé-des-bénéfices 的直达链接">​</a></h2>
+<p>Avec SmartLink 4.2.0, vous bénéficiez de :</p>
+<p>✅ <strong>Plus de sécurité</strong> – Authentification renforcée et politiques d'accès granulaires<br>
+<!-- -->✅ <strong>Plus de visibilité</strong> – Traçabilité complète des accès et activités utilisateur<br>
+<!-- -->✅ <strong>Plus de conformité</strong> – Audit trails pour GDPR, NIS2, ISO 27001<br>
+<!-- -->✅ <strong>Plus de contrôle</strong> – Gestion fine de la Shadow IT et des appareils<br>
+<!-- -->✅ <strong>Plus de productivité</strong> – Expérience utilisateur simplifiée et import multi-sources</p>]]></content:encoded>
+            <category>smartlink</category>
+        </item>
         <item>
             <title><![CDATA[SmartLink 4.1.1]]></title>
             <link>https://docs.vaultys.com/zh/smartlink/smartlink/version/4.1.1</link>
@@ -114,7 +297,7 @@ Depuis cet onglet vous pourrrez facilement :</p>
 <h2 class="anchor anchorWithStickyNavbar_SOLx" id="ajout-dutilisateurs">Ajout d'utilisateurs<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/3.9#ajout-dutilisateurs" class="hash-link" aria-label="跳转至 Ajout d'utilisateurs 的直达链接" title="跳转至 Ajout d'utilisateurs 的直达链接">​</a></h2>
 <p>L'ajout d'utilisateurs a également été amélioré. Vous pouvez désormais les importer directement depuis un fichier CSV ou les ajouter manuellement en quelques clics.</p>
 <p><img decoding="async" loading="lazy" alt="Add users" src="https://docs.vaultys.com/zh/assets/images/11431d249bc330d93e9be2faa7d8dee2-0c4bc0b348e013e953bf180a3f94566f.png" width="820" height="659" class="img_BH_O"></p>
-<h2 class="anchor anchorWithStickyNavbar_SOLx" id="audit">Audit<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/3.9#audit" class="hash-link" aria-label="跳转至 Audit 的直达链接" title="跳转至 Audit 的直达链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_SOLx" id="audit">Audit<a href="https://docs.vaultys.com/zh/smartlink/smartlink/version/3.9#audit" class="hash-link" aria-label="跳转至 Audit 的直达链��接" title="跳转至 Audit 的直达链接">​</a></h2>
 <p>Générez un rapport PDF conforme à l'annexe A9 de l'audit ISO 27001 pour une meilleure traçabilité et conformité !</p>
 <p><img decoding="async" loading="lazy" alt="Audit PDF" src="https://docs.vaultys.com/zh/assets/images/a1c74ee4d3eb22742e7fb83c0d7a4469-a3341329af5cc93e97b2a4f16c347dcf.png" width="902" height="904" class="img_BH_O"></p>]]></content:encoded>
             <category>smartlink</category>
